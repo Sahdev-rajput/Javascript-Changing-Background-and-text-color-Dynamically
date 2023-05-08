@@ -7,3 +7,7 @@ About the repository:
 
 
 # Click here to view the website: 
+https://sahdev-rajput.github.io/Javascript-Changing-Background-and-text-color-Dynamically/
+
+
+----------------------------**************************************************---------------------------
