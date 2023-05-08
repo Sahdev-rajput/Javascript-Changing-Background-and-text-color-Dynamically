@@ -6,4 +6,4 @@ About the repository:
 , How to call funcitons inside addEventListener
 
 
-=>Click here to view the website: 
+# Click here to view the website: 
