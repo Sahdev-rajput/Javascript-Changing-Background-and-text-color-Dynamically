@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>
+         Practice 3
+        </title>
+    </head>
+    <body id="colour">
+        <h1>This is a practice for javascript</h1>
+        <h2 id="txt"></h2>
+        <form>
+            <fieldset>
+                <legend>For Text Colour</legend>
+            <select id="mutter" onchange="test()">
+                <option>red</option>
+                <option>green</option>
+                <option>blue</option>
+                <option>orange</option>
+            </select>
+        </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>For Background Colour</legend>
+            <select id="mut" onchange="test1()">
+                <option>lightred</option>
+                <option>lightgreen</option>
+                <option>lightblue</option>
+                <option>orange</option>
+                <option>lightyellow</option>
+            </select>
+            </fieldset>
+        </form>
+        <textarea id="rajput" onscroll="fun()">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi autem ullam, eaque sit iure a odit minus. Maxime quisquam ullam cupiditate neque reprehenderit, autem laboriosam numquam sed ab eum explicabo!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis enim possimus suscipit ab est. Deserunt, repellat doloribus laborum ducimus esse officia nihil fuga dolorem quod ad! Quisquam alias illo vel.
+        </textarea>
+        <br><br>
+        <div class="conatiner" onkeydown="fun1()" onkeyup="fun2()">
+            This is a div tag: a block level element
+            <br><br><br><br><br><br><br>
+        </div>
+        <script>
+            var arr=["sahdev","virensdra","avhinav",78];
+            document.getElementById("txt").innerHTML=arr[2];
+            //document.getElementById("txt").innerText="Hello sahdev welcome to the world of js";
+            function test(){
+            let d= document.getElementById("mutter").value;
+            document.getElementById("colour").style.color=d;
+            }
+            function test1(){
+            let d= document.getElementById("mut").value;
+            document.getElementById("colour").style.backgroundColor=d;
+            }
+            function fun()
+            {
+                document.getElementById("rajput").style.backgroundColor='lightblue';
+            }
+            function fun1()
+            {
+                document.getElementsByClassName("container").style.backgroundColor='lightred';
+            }
+            function fun2()
+            {
+                document.getElementsByClassName("container").style.backgroundColor='red';
+                document.getElementsByClassName("container").style.color='white';
+
+            }
+            
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+
+
+
+    </body>
+    
+
+</html>
